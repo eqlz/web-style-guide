@@ -1,0 +1,16 @@
+/* Navigation in Components */
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__item {
+    list-style-type: none;
+    margin: 0px 20px;   
+}
+
+.nav__item a {
+    text-decoration: none;
+}

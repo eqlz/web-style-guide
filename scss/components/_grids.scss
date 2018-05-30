@@ -1,1 +1,18 @@
-// Grid
+/* Grid in Components */
+
+.container {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.grid__row {
+    display: flex;
+}
+
+@for $i from 2 through 12 {    
+    .grid__col--#{$i} {
+        width: percentage($i / 12);
+    }    
+}
